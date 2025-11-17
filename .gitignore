@@ -1,0 +1,21 @@
+# Java / Maven / Gradle build- ja IDE-hakemistot
+target/
+.settings/
+.classpath
+.project
+
+# Yleiset roskat
+*.log
+
+# Varmuuskopiot
+*.tmp
+*.bak
+
+# Eclipse
+*.prefs
+
+# Jos git ajetaan Unicafe-kansiosta ja et halua ylemmän tason hakemistoja mukaan:
+../bin/
+../src/
+../.classpath
+../.project
