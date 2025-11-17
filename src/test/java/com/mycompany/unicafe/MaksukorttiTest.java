@@ -1,14 +1,14 @@
 package com.mycompany.unicafe;
 
-import static org.junit.Assert.*;
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 
 public class MaksukorttiTest {
 
     Maksukortti kortti;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         kortti = new Maksukortti(10);
     }
