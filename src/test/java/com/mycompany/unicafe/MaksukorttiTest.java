@@ -43,7 +43,7 @@ public class MaksukorttiTest {
 	}
 	
     @Test
-    void otaRahaaPalauttaaTrueJosRahatRiittavat() {
+    public void otaRahaaPalauttaaTrueJosRahatRiittavat() {
         boolean onnistui = kortti.otaRahaa(5);
 
         // Testataan, että metodi palauttaa true
@@ -54,7 +54,7 @@ public class MaksukorttiTest {
     }
 
     @Test
-    void otaRahaaPalauttaaFalseJosRahatEivatRiita() {
+    public void otaRahaaPalauttaaFalseJosRahatEivatRiita() {
         boolean onnistui = kortti.otaRahaa(20);
 
         // Testataan, että metodi palauttaa false
